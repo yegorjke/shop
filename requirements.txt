@@ -1,0 +1,10 @@
+black
+fastapi
+flake8
+httpx
+isort
+mypy
+mypy-extensions
+pytest
+pytest_asyncio
+uvicorn

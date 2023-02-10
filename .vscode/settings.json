@@ -1,0 +1,24 @@
+{
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true 
+        }
+    },
+    "autoDocstring.docstringFormat": "google",
+    "python.languageServer": "Pylance",
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "119",
+    ],
+    "python.linting.flake8Args": [
+        "--ignore=E303,F401,E402,W391",
+        "--max-line-length=120"
+    ]
+}
